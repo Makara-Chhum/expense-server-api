@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
-    "watch": "nodemon src/server.js"
+    "watch": "nodemon src/server.js -L"
   },
   "keywords": [
     "MERN"
@@ -20,6 +20,6 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.4",
     "mongoose-paginate-v2": "^1.6.3",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.2"
   }
 }

@@ -17,7 +17,7 @@ dbConnect();
 
 //heroku landing page show
 app.get('/', (req, res) => {
-    res.json({msg: 'Welcome to Expense-Tracker-App-Api'});
+    res.json({msg: 'Welcome to Expense-Tracker-App-Api-V2'});
 })
 
 //middleware
