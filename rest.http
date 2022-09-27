@@ -1,4 +1,2 @@
-
-GET http://localhost:5000/api/users
-
-
+//fetch all users
+GET http://localhost:8080/api/users
